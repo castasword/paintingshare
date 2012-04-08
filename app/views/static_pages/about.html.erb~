@@ -1,0 +1,5 @@
+<% provide(:title, 'About') %>
+<h1>PaintingShare</h1>
+<p>
+  一个分享绘画经验 展示自我作品的网
+</p>

@@ -1,0 +1,58 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-04-08 14:27:36 +0800
+Served asset /rails.png - 304 Not Modified (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-08 14:27:56 +0800
+  Processing by StaticPagesController#home as HTML
+Rendered static_pages/home.html.erb within layouts/application (57.0ms)
+Compiled application.css  (3ms)  (pid 4108)
+Compiled custom.css  (3063ms)  (pid 4108)
+Compiled static_pages.css  (3ms)  (pid 4108)
+Compiled users.css  (3ms)  (pid 4108)
+Compiled application.js  (7ms)  (pid 4108)
+Compiled jquery.js  (29ms)  (pid 4108)
+Compiled jquery_ujs.js  (18ms)  (pid 4108)
+Compiled static_pages.js  (1003ms)  (pid 4108)
+Compiled users.js  (359ms)  (pid 4108)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 5135ms (Views: 5134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /custom.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-04-08 14:28:01 +0800
+Served asset /users.js - 200 OK (4ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-04-08 14:28:02 +0800
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-08 14:28:02 +0800
+Served asset /application.js - 200 OK (0ms)

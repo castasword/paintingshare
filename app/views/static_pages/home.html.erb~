@@ -1,0 +1,12 @@
+<% provide(:title, 'Home') %>
+<div class="center hero-unit">
+  <h1>欢迎来到PaintingShare</h1>
+
+  <h2>
+    这是一个交流绘画经验、展示绘画作品的一个网站！
+  </h2>
+  
+  <%= link_to "现在就注册！", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+

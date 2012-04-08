@@ -1,0 +1,13 @@
+<div class="center hero-unit">
+  <h1>PaintingShare</h1>
+
+  <h2>
+    欢迎来到晒画网
+  </h2>
+  
+  <%= link_to "现在就注册！", '#', class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+
+
