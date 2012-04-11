@@ -14,6 +14,7 @@ group :assets do
   gem 'bootstrap-sass', '~>2.0.2'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'annotate', '~>2.4.1.beta'
 end
 
 gem 'jquery-rails'
