@@ -1,10 +1,9 @@
 Paintingshare::Application.routes.draw do
-  get "users/new"
+  match 'users/signup' => 'users#new', :as => "signup"
+  resources :users
 
   root :to => 'static_pages#home'
   
-  match 'users/signup' => 'users#new', :as => "signup"
-
   match 'static_pages/home' => 'static_pages#home', :as => "root"
   match 'static_pages/help' => 'static_pages#help', :as => "help"
   match 'static_pages/about' => 'static_pages#about', :as => "about"
